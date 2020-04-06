@@ -104,6 +104,11 @@
 					"preload": true,
 					"uri": "model/algorithms/pal/auto_smooting.json"
 				},
+				"pal_seasonality_test": {
+					"type": "sap.ui.model.json.JSONModel",
+					"preload": true,
+					"uri": "model/algorithms/pal/seasonality_test.json"
+				},
 				"default": {
 					"type": "sap.ui.model.json.JSONModel",
 					"preload": true,
@@ -143,6 +148,11 @@
 					"name": "auto_smooting",
 					"pattern": "auto_smooting",
 					"target": "auto_smooting"
+					},
+					{
+					"name": "seasonality_test",
+					"pattern": "seasonality_test",
+					"target": "seasonality_test"
 					}
 				],
 			"targets": {
@@ -162,6 +172,10 @@
 			        "auto_smooting": {
 						"clearAggregation": true,
 						"viewName": "algorithms.pal.auto_smooting"
+					},
+					"seasonality_test": {
+						"clearAggregation": true,
+						"viewName": "algorithms.pal.seasonality_test"
 					}
 			}
 		}
