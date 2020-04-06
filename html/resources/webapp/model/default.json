@@ -11,7 +11,7 @@
 			"library": "pal",
 			"label": "PAL Auto ARIMA"
 		}, {
-			"key": "auto_smoothing",
+			"key": "auto_smooting",
 			"library": "pal",
 			"label": "PAL Auto Exponential Smoothing"
 		}, {
