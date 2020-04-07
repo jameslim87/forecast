@@ -1,0 +1,12 @@
+{
+  "xsappname": "forecast",
+  "scopes": [{
+    "name": "$XSAPPNAME.USER",
+    "description": "Forecast User Application Scope"
+  }],
+  "role-templates": [{
+    "name": "ForecastUser",
+    "description" : "Forecast User Role Template",
+    "scope-references": ["$XSAPPNAME.USER"]
+  }]
+}
